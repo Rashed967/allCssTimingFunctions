@@ -32,6 +32,7 @@
     display: flex;
     justify-content: space-between;
     margin: 2vh;
+    gap: 1vh;
 }
 .game-header h3, p{
     font-size: 3vh;
@@ -98,7 +99,27 @@
     width: 25%;
 }
 
-.ground-area:hover #car{
+.ground-area:hover #car-1{
+    transform: translate(44vh);
+    transition: transform 3s linear;
+}
+.ground-area:hover #car-2{
+    transform: translate(44vh);
+    transition: transform 3s ease;
+}
+.ground-area:hover #car-3{
+    transform: translate(44vh);
+    transition: transform 3s ease-in;
+}
+.ground-area:hover #car-4{
+    transform: translate(44vh);
+    transition: transform 3s ease-out;
+}
+.ground-area:hover #car-5{
+    transform: translate(44vh);
+    transition: transform 3s ease-in-out;
+}
+.ground-area:hover #car-6{
     transform: translate(44vh);
     transition: transform 3s;
 }

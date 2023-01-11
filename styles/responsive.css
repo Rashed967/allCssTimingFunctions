@@ -35,3 +35,32 @@
     }
     
 }
+
+/* small devicss responsive  */
+@media screen and (min-width : 577px ) and (max-width : 768px) {
+    .ground-area-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+/* mideum devicss responsive  */
+@media screen and (min-width : 769px ) and (max-width : 992px) {
+    .ground-area-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* mideum devicss responsive  */
+@media screen and (min-width : 993px ) and (max-width : 1199px) {
+    .ground-area-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* mideum devicss responsive  */
+@media screen and (min-width : 1200px )  {
+    .ground-area-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
