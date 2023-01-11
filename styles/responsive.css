@@ -1,12 +1,37 @@
 /* small devices */
 @media screen and (max-width : 576px) {
+    
+    .ground-area-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .game-header{
+        display: flex;
+        justify-content: space-between;
+        margin: 2vh;
+        gap: 1vh;
+        
+    }
+
+    .game-header h3, p{
+        font-size: 1.4vh;
+        font-weight: 600;
+        padding: 1vh 2vh;
+        border-radius: .4vh;
+    }
     .car img{
         width: 25%;
         bottom: 27px;
     } 
     .ground-area:hover #car{
-        transform: translate(38vh);
+        transform: translate(36vh);
         transition: transform 3s;
+    }
+    .start-btn-box{
+        text-align: center;
+    }
+    .start-btn-box button{
+        font-size: 1.9vh;
+        display: block;
     }
     
 }
