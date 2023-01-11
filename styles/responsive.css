@@ -1,5 +1,51 @@
-/* small devices */
-@media screen and (max-width : 576px) {
+/* xx small devices  */
+
+/* @media screen and (max-width : 4px) {
+
+    .ground-area-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .game-header{
+        display: flex;
+        justify-content: space-between;
+        margin: 2vh;
+        gap: 1vh;
+        
+    }
+
+    .game-header h3, p{
+        font-size: 1.4vh;
+        font-weight: 600;
+        padding: 1vh 2vh;
+        border-radius: .4vh;
+    }
+    .car img{
+        width: 25%;
+        bottom: 27px;
+    }
+    .ground-area:hover #car-1{
+        transform: translate(10%);
+    }
+    .ground-area:hover #car-2{
+        transform: translate(10%);
+    }
+    .ground-area:hover #car-3{
+        transform: translate(10%);
+    }
+    .ground-area:hover #car-4{
+        transform: translate(10%);
+    }
+    .ground-area:hover #car-5{
+        transform: translate(10%);
+    }
+    .ground-area:hover #car-6{
+        transform: translate(10%);
+    }
+} */
+
+
+/* extra small devices */
+@media screen and (min-width : 440px) and (max-width : 576px) {
     
     .ground-area-container{
         grid-template-columns: repeat(1, 1fr);
@@ -22,16 +68,30 @@
         width: 25%;
         bottom: 27px;
     } 
-    .ground-area:hover #car{
-        transform: translate(36vh);
-        transition: transform 3s;
-    }
     .start-btn-box{
         text-align: center;
     }
     .start-btn-box button{
         font-size: 1.9vh;
         display: block;
+    }
+    .ground-area:hover #car-1{
+        transform: translate(42vh);
+    }
+    .ground-area:hover #car-2{
+        transform: translate(42vh);
+    }
+    .ground-area:hover #car-3{
+        transform: translate(42vh);
+    }
+    .ground-area:hover #car-4{
+        transform: translate(42vh);
+    }
+    .ground-area:hover #car-5{
+        transform: translate(42vh);
+    }
+    .ground-area:hover #car-6{
+        transform: translate(42vh);
     }
     
 }
@@ -41,6 +101,30 @@
     .ground-area-container{
         grid-template-columns: repeat(1, 1fr);
     }
+    .game-header h3, p{
+        font-size: 2vh;
+        font-weight: 600;
+        padding: 1vh 2vh;
+        border-radius: .4vh;
+    }
+    .ground-area:hover #car-1{
+        transform: translate(55vh);
+    }
+    .ground-area:hover #car-2{
+        transform: translate(55vh);
+    }
+    .ground-area:hover #car-3{
+        transform: translate(55vh);
+    }
+    .ground-area:hover #car-4{
+        transform: translate(55vh);
+    }
+    .ground-area:hover #car-5{
+        transform: translate(55vh);
+    }
+    .ground-area:hover #car-6{
+        transform: translate(55vh);
+    }
 }
 
 
@@ -49,6 +133,30 @@
     .ground-area-container{
         grid-template-columns: repeat(2, 1fr);
     }
+    .game-header h3, p{
+        font-size: 2.1vh;
+        font-weight: 600;
+        padding: 1vh 2vh;
+        border-radius: .4vh;
+    }
+    .ground-area:hover #car-1{
+        transform: translate(37vh);
+    }
+    .ground-area:hover #car-2{
+        transform: translate(37vh);
+    }
+    .ground-area:hover #car-3{
+        transform: translate(37vh);
+    }
+    .ground-area:hover #car-4{
+        transform: translate(37vh);
+    }
+    .ground-area:hover #car-5{
+        transform: translate(37vh);
+    }
+    .ground-area:hover #car-6{
+        transform: translate(37vh);
+    }
 }
 
 /* mideum devicss responsive  */
@@ -56,11 +164,42 @@
     .ground-area-container{
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .game-header h3, p{
+        font-size: 2.3vh;
+        font-weight: 600;
+        padding: 1vh 2vh;
+        border-radius: .4vh;
+    }
 }
 
 /* mideum devicss responsive  */
 @media screen and (min-width : 1200px )  {
     .ground-area-container{
         grid-template-columns: repeat(3, 1fr);
+    }
+    .game-header h3, p{
+        font-size: 2.5vh;
+        font-weight: 600;
+        padding: 1vh 2vh;
+        border-radius: .4vh;
+    }
+    .ground-area:hover #car-1{
+        transform: translate(37vh);
+    }
+    .ground-area:hover #car-2{
+        transform: translate(37vh);
+    }
+    .ground-area:hover #car-3{
+        transform: translate(37vh);
+    }
+    .ground-area:hover #car-4{
+        transform: translate(37vh);
+    }
+    .ground-area:hover #car-5{
+        transform: translate(37vh);
+    }
+    .ground-area:hover #car-6{
+        transform: translate(37vh);
     }
 }

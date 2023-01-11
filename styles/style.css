@@ -5,10 +5,23 @@
     text-decoration: none;
     
 }
+body{
+    background-color: antiquewhite;
+}
 :root{
     --black-color: #000000;
     --blue-color: #57577a;
     --white-color: #fff;
+}
+.game-info{
+    width: 90%;
+    margin: 3vh auto 0;
+    text-align: center;
+}
+.game-info h5{
+    color: var(--blue-color);
+    font-weight: 600;
+    margin: 1vh 0;
 }
 .ground-area-container{
     /* display: flex;
@@ -17,14 +30,19 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2vh;
-    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 2.2vh;
+    
 }
+
 
 .ground-area{
     /* margin: 5vh auto 0; */
     /* width: ; */
     height: 40vh;
-    border: 1vh solid brown;
+    /* border: 1vh solid brown; */
+    border-radius: .3vh;
     position: relative;
     background-color: var(--white-color);
 }
@@ -97,6 +115,7 @@
     position:absolute;
     bottom: 25px;
     width: 25%;
+    margin-right: 3vh;
 }
 
 .ground-area:hover #car-1{
@@ -122,4 +141,15 @@
 .ground-area:hover #car-6{
     transform: translate(44vh);
     transition: transform 3s;
+}
+
+/* footer part start  */
+footer{
+    margin-top: 5vh;
+    text-align: center;
+    background-color: var(--blue-color);
+    padding: 1vh 0;
+}
+footer a{
+    color: var(--white-color);
 }
