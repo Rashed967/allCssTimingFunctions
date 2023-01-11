@@ -12,8 +12,8 @@
 }
 
 .ground-area{
-    margin: 5vh auto 0;
-    width: 60%;
+    /* margin: 5vh auto 0; */
+    width: 90%;
     height: 50vh;
     border: 1vh solid brown;
     position: relative;
@@ -63,31 +63,12 @@
 
 }
 
-@keyframes car-race {
-    0%{
-        left: 0;
-    }
-
-    25%{
-        left: 25%;
-    }
-    50%{
-        left: 50%;
-    }
-    75%{
-        left: 75%;
-    }
-    100%{
-        left: 100%;
-    }
-}
-
 .car img{
     position:absolute;
     bottom: 25px;
 }
 
 .ground-area:hover #car{
-    transform: translate(600px);
+    transform: translate(100vh);
     transition: transform 3s;
 }
