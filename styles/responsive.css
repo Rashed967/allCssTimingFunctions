@@ -1,0 +1,12 @@
+/* small devices */
+@media screen and (max-width : 576px) {
+    .car img{
+        width: 25%;
+        bottom: 27px;
+    } 
+    .ground-area:hover #car{
+        transform: translate(38vh);
+        transition: transform 3s;
+    }
+    
+}
